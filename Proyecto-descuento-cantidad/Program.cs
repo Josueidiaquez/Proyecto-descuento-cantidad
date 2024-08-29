@@ -38,13 +38,13 @@ class Program
                 default:
                     Console.WriteLine("opcion no valida, intente de nuevo");
                     break;
+            }
 
-                if (continuar)
-                {
-                    Console.WriteLine("Presione cualquier tecla para continuar...");
-                    Console.ReadKey();
-                }
-                    
+            if (continuar) 
+            {
+                Console.WriteLine("Presione cualquier tecla para continuar...");
+                Console.ReadKey();
+            
             }
         }
     }
